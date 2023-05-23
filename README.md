@@ -8,6 +8,17 @@ by the EVN Data Archive.
 All scripts can run as a standalone program or being called within the
 CASA environment.
 
+## Installation
+
+First make sure you've already install astropy at first,
+then do the following steps to install.
+
+```bash
+$ git clone https://github.com/jive-vlbi/casa-vlbi.git
+$ cd casa-vlbi
+$ python3 setup.py build
+$ python3 setup.py install
+```
 
 ## A-priori gain calibration
 
